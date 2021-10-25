@@ -1,0 +1,9 @@
+- name: Greeter playbook
+  hosts: webserver
+  tasks:
+    - name: This task ensures httpd package is present on {{ ansible_hostname }}
+      service:
+        name: httpd
+        state: present
+        enabled: true
+      become: true
