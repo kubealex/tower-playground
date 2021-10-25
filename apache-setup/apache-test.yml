@@ -1,4 +1,4 @@
-- name: Greeter playbook
+- name: Playbook for testing Apache setup
   hosts: webserver
   tasks:
     - name: This task ensures httpd package is present on {{ ansible_hostname }}
