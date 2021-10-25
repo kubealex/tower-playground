@@ -4,6 +4,6 @@
     - name: This task ensures httpd package is present on {{ ansible_hostname }}
       service:
         name: httpd
-        state: present
+        state: started
         enabled: true
       become: true
