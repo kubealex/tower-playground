@@ -31,4 +31,10 @@ Run the installer:
 
     ./setup.sh
   
-Test your setup by visiting https://<TOWER_SERVER_NAME>/
+Test your setup by visiting:  
+    https://<TOWER_SERVER_NAME>/
+
+And proceed importing your subscription!
+    
+## Create a project
+
