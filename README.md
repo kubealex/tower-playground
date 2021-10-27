@@ -61,6 +61,7 @@ Provide:
 ## Create a project
 
 In Ansible Tower GUI, go into **Project** section, add a new project and fill out the fields:
+
     Name: ansible-tower-demo
     SCM Type: git
     SCM URL: https://github.com/kubealex/tower-playground.git
@@ -81,6 +82,7 @@ While in the newly created inventory, open the *Hosts* tab and create an entry f
 ### Create a group
 
 While in the newly created inventory, open the *Groups* tab and create a group
+
     NAME: webservers
 
 Add the previously created host(s) to the group.
