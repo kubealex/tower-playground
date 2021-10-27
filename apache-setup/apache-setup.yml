@@ -1,5 +1,5 @@
 - name: Apache installer playbook
-  hosts: webserver
+  hosts: webservers
   tasks:
     - name: This task ensures httpd package is present on {{ ansible_hostname }}
       yum:

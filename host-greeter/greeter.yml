@@ -1,5 +1,5 @@
 - name: Greeter playbook
-  hosts: webserver
+  hosts: webservers
   tasks:
     - name: This task is going to greet all webservers
       debug:
