@@ -1,7 +1,7 @@
 # Ansible Tower Demo
 
 Welcome to this small Ansible Tower demo.
-This repository instantiates the git repo for a demo project to be created in Tower.
+This repository instantiates the git-repo for a demo project to be created in Tower.
 
 ## Bill of Materials
 
