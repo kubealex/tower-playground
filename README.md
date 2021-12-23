@@ -6,7 +6,8 @@ This repository instantiates the git-repo for a demo project to be created in To
 ## Bill of Materials
 
 1xVM - Ansible Automation Platform  
-1[N]xVM - RHEL Server(s) with devops user configured on it, sudo access with no password.
+1[N]xVM - RHEL Server(s) with devops user configured on it, sudo access with no password. 
+
 
 ## Install Tower
 Download Tower package on your machine:
